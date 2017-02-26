@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luís Ribeiro</title>
+		
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Marvel|Great+Vibes" media="screen" />
+        <!--[if lt IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+	</head>
+
+	<body>
+        <header>
+			<div class="menu">
+				<div>
+					<h1>Luís Ribeiro</h1>
+					<p>Welcome to my home page</p>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+        </header>
+		
+        <section id="about">
+			<h2>About</h2>
+            <article class="item">
+				<p>My name is Luís Ribeiro and I currently live in <a href="http://www.google.pt/maps/place/Porto/@41.1622023,-8.6568726,13z/data=!3m1!4b1!4m2!3m1!1s0xd2465abc4e153c1:0xa648d95640b114bc" target="_blank">Porto region (Portugal)</a>. I have a degree in Computer Science from <a href="http://isep.ipp.pt/" target="_blank">Instituto Superior de Engenharia do Porto</a>
+				and I'm a versatile and pro-active person who is always searching for IT knowledge. I'm also a self-taught since much of my knowledge came from my incessant search and study. Altought I have a high quality performance in this area, I keep a special interest for analysis and programming. Please take a look also at some of my <a href="#projects">personal projects</a>.</p>
+				<p>Feel free to <a href="#followme">follow me</a> or send me a <a href="#contact">message</a>, I'll answer you as soon as possible.</p>
+				
+            </article>
+            <article class="item">
+				<div style="text-align: center;">
+					<img class="photo" src="img/myphoto.jpg" alt="my picture"/>
+				</div>				
+            </article>
+		</section>
+		
+        <section id="projects">
+            <h2>Projects</h2>    
+            <article class="item">
+                <figure>  
+                    <figcaption>
+                        <strong>
+                            Maze Game
+                        </strong>
+						<ul>
+							<li>Creation and selection of maps</li>
+							<li>Custom themes (actors, sounds, textures, speeds, etc)</li>
+						</ul>
+                    </figcaption>
+					<iframe class="yvideo" src="https://www.youtube.com/embed/J_q72PfsqBY" frameborder="0" allowfullscreen>
+					</iframe>				
+                </figure>
+            </article>
+            <article class="item">
+                <figure>
+                    <figcaption>
+                        <strong>
+                            &nbsp;
+                        </strong>
+                        Applying a diferent theme...
+                    </figcaption>
+					<iframe class="yvideo" src="https://www.youtube.com/embed/240GDnM1wFw" frameborder="0" allowfullscreen>
+					</iframe>				
+                </figure>
+            </article>
+            <article class="item">
+                <figure>
+                    <figcaption>
+                        <strong>
+							Clinic Management
+                        </strong>
+                        This is a web application that allows to:
+						<ul>
+							<li>Manage physical and human resources: Patients, Doctors, etc.</li>
+							<li>Appointments Schedule</li>
+							<li>Doctors Timetable</li>
+							<li>Clinics Specialtys</li>
+							<li>Security: User Management with privileges control and audit</li>
+							<li>and many others</li>
+						</ul>
+                    </figcaption>
+					<iframe class="yvideo" src="https://www.youtube.com/embed/AgL22zQW4n8" frameborder="0" allowfullscreen>
+					</iframe>				
+                </figure>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>    
+			
+			<form id="formidcontactme" method="post" action="https://script.google.com/macros/s/AKfycbz2HzVd9dBBNhxSjWxCq_wpZOmr6Va7gqdbRnMdYL5pyU1GMFM/exec">
+				<div>
+					<div class="rowhalf">
+						<input type="text" name="name" id="name" placeholder="Name" />
+					</div>
+					<div class="rowhalf">
+						<input type="text" name="email" id="email" placeholder="your.name@email.com" />
+					</div>
+				</div>
+				<div>
+					<div class="row">
+						<textarea name="message" id="message" placeholder="Tell me anything..."></textarea>
+					</div>
+				</div>
+				<div style="display:none;" id="resultmsg"></div>
+				<div style="display:none;color:red;" id="errorname"><div class="row">Name is required.</div></div>
+				<div style="display:none;color:red;" id="erroremail"><div class="row">Please enter a valid email address.</div></div>
+				<div style="display:none;color:red;" id="errormessage"><div class="row">Message is required.</div></div>
+				<div>
+					<div class="row">
+						<div id="idring" style="display:none;"><img style="vertical-align: middle" src="img/ring.svg"> Sending...</div>
+						<input id="formidinputcontactme" type="submit" value="Send" />
+					</div>
+				</div>
+			</form>	
+        </section>
+        
+		<footer>
+            <section id="footer">
+				<div class="footwrapper">
+					<div id="followme" class="footcenter">
+						<h3>Follow me on</h3>
+						<ul class="social">
+							<li><a href="https://www.linkedin.com/in/luisribeironet" class="ic-linkedin" target="_blank"><span class="hidden">LinkedIn</span></a></li>
+							<li><a href="https://www.facebook.com/luisribeironet" class="ic-facebook" target="_blank"><span class="hidden">Facebook</span></a></li>
+							<li><a href="https://www.twitter.com/luisribeironet" class="ic-twitter" target="_blank"><span class="hidden">Twitter</span></a></li>
+							<li><a href="https://plus.google.com/115334408932353016328" class="ic-gplus" target="_blank"><span class="hidden">Google+</span></a></li>
+							<li><a href="https://github.com/lmrdvp/" class="ic-github" target="_blank"><span class="hidden">Github</span></a></li>
+						</ul>
+					</div>
+				</div>
+            </section>
+        </footer>
+		
+		<!-- Scripts -->
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/lib.js"></script>
+		<script type="text/javascript">
+			<!--Name can't be blank -->
+			$("#name").off('input').on('input', { formid: 'formidcontactme'}, doValidateInput);   
+			<!--Email must be an email -->
+			$("#email").off('input').on('input', { formid: 'formidcontactme'}, doValidateInputEmail);   
+			<!--Message can't be blank -->
+			$("#message").off('keyup').on('keyup', { formid: 'formidcontactme'}, doValidateInput);   
+			<!--Form validation and submit -->
+			$("#formidinputcontactme").off('click').on('click', { formid: 'formidcontactme', fragments: 'resultmsg', placeholder: 'idring'}, doValidateSubmitForm);   
+		</script>			
+		
+	</body>
+</html>
