@@ -342,19 +342,19 @@ header nav ul li a:hover.selected
 	}
 
 	ul.social li a.ic-linkedin{
-		background-image: url("img/linkedin.png");
+		background-image: url("img/li.png");
 	}
 	ul.social li a.ic-facebook{
-		background-image: url("img/facebook.png");
+		background-image: url("img/fcbk.png");
 	}
 	ul.social li a.ic-twitter{
-		background-image: url("img/twitter.png");
+		background-image: url("img/tt.png");
 	}
 	ul.social li a.ic-gplus{
-		background-image: url("img/gplus.png");
+		background-image: url("img/gp.png");
 	}
 	ul.social li a.ic-github{
-		background-image: url("img/github.png");
+		background-image: url("img/gh.png");
 	}
 		
 	ul.social li a:hover {
